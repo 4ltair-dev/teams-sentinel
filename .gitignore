@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & API credentials (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Vosk offline speech model (auto-downloaded via download_model.py, ~88MB)
+model/
+vosk_temp_extract/
+*.zip
+
+# Audio captures & testing artifacts
+*.wav
+*.mp3
+*.ogg
+*.raw
+*.log
+
+# User-specific local desktop shortcut
+teams-sentinel.desktop
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
